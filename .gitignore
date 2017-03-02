@@ -1,0 +1,11 @@
+.DS_Store
+.DS_Store?
+.settings
+
+objects.mk
+sources.mk
+subdir.mk
+makefile
+
+.cproject
+.project
