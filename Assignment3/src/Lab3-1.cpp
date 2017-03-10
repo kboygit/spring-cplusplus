@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : Lab3-1.cpp
-// Author      : Kirby James Fernandez
+// Author      : Kirby James
 // Version     :
 // Copyright   :
 // Description : Calculate the average for a given student based on the following
@@ -84,7 +84,7 @@ int main() {
 
 	/*
 	"#######################################"
-	"# Submitted by: Kirby James Fernandez #"
+	"# Submitted by:     Kirby James       #"
 	"#######################################"
 	*/
 
