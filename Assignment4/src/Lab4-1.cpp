@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : Lab4-1.cpp
-// Author      : Kirby James Fernandez
+// Author      : Kirby James
 // Description : C++ program to prompt user for a student’s scores calculate the average and assign a letter grade.
 // 				 Prints the data and calculated results in a nice format.
 //				 There are 3 test scores which counts for 60% of the grade, there is a quiz score which counts for 10% of the grade,
