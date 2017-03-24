@@ -221,26 +221,26 @@ int main () {
     cout << "//=======================================================================================================================//" << endl;
     cout << right << setw(60) << "RESULTS" << endl;
     cout << "//=======================================================================================================================//" << endl;
-    cout << "//\t\tName: " 						<< right << setw(60) << full_name 	<< setw(41) << z << endl;
+    cout << "//\t\tName: " 				<< right << setw(60) << full_name 	<< setw(41) << z << endl;
     if ( validated (getGrade (first_test)) ) {
-	cout << "//\t\t1st test score: " 			<< right << setw(40) << first_test	<< setw(6) << x << (char)(64 + getGrade(first_test))	<< setw(44) << z << endl;
+	cout << "//\t\t1st test score: " 		<< right << setw(40) << first_test	<< setw(6) << x << (char)(64 + getGrade(first_test))	<< setw(44) << z << endl;
     }
     if ( validated (getGrade (second_test)) ) {
-	cout << "//\t\t2nd test score: " 			<< right << setw(40) << second_test << setw(6) << x << (char)(64 + getGrade(second_test))	<< setw(44) << z << endl;
+	cout << "//\t\t2nd test score: " 		<< right << setw(40) << second_test 	<< setw(6) << x << (char)(64 + getGrade(second_test))	<< setw(44) << z << endl;
     }
     if ( validated (getGrade (third_test)) ) {
-	cout << "//\t\t3rd test score: " 			<< right << setw(40) << third_test	<< setw(6) << x << (char)(64 + getGrade(third_test))	<< setw(44) << z << endl;
+	cout << "//\t\t3rd test score: " 		<< right << setw(40) << third_test	<< setw(6) << x << (char)(64 + getGrade(third_test))	<< setw(44) << z << endl;
     }
     if ( validated (getGrade (assignment_score)) ) {
 	cout << "//\t\tProgramming score: " 		<< right << setw(40) << setprecision(2) << showpoint << fixed << assignment_score << x << (char)(64 + getGrade(assignment_score)) << setw(44) << z << endl;
     }
     if ( validated (getGrade (quiz_score)) ) {
-	cout << "//\t\tQuiz score: " 				<< right << setw(44) << quiz_score << setw(6) <<  x << (char)(64 + getGrade(quiz_score))	<< setw(44) << z << endl;
+	cout << "//\t\tQuiz score: " 			<< right << setw(44) << quiz_score << setw(6) <<  x << (char)(64 + getGrade(quiz_score))	<< setw(44) << z << endl;
     }
     else {
 	cout << "//\t\tInvalid data, sorry! see you again next semester" << endl;
     }
-    cout << "//\t\tTest Average: " 				<< right << setw(45) << test_average << x << (char)(64 + getGrade(test_average))	<< setw(44) << z << endl;
+    cout << "//\t\tTest Average: " 			<< right << setw(45) << test_average	 << x << (char)(64 + getGrade(test_average))	<< setw(44) << z << endl;
     cout << "//\t\tYour Final Average: " 		<< right << setw(39) << average 	 << x << (char)(64 + getGrade(average))		<< setw(44) << z << endl;
     cout << "//=======================================================================================================================//" << endl;
 
