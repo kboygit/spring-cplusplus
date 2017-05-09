@@ -1,0 +1,22 @@
+Programmer: 		Kirby Fernandez
+Programming Assignment 	6
+This program will calculate and reports tax liability in a table format.
+
+Name		ID	Gross Income	Taxes	Net Income
+===========================================================================================
+Miss Informed	125432	32560	**** Invalid ID
+Sweet Tooth	5432	9500		435	9065
+Bad ID Data	45	4500	**** Invalid ID
+Bad income Data	1255	-4500	**** Invalid Income 
+John Smith	1225	3500		0	3500
+Bad Id2 Data	12456	7800	**** Invalid ID
+Nancy Brown	1555	113570		27832.4	85737.6
+Al Boundy Jr.	1999	3500		0	3500
+Joe Williams	2999	8000		270	7730
+Henry Kingston	2998	20000		1590	18410
+Karl Livington	1997	34000		3970	30030
+James Adelton	1889	54000		8770	45230
+
+Average net income 	$25400.3
+Highest net income 	Nancy Brown	$85737.6
+Lowest net income 	John Smith	$3500
